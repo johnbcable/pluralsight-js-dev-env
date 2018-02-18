@@ -27,7 +27,7 @@ webpack(webpackConfig).run((err, stats) => {
   console.log(`Webpack stats: ${stats}`);
 
   // If we got this far, the build succeeded.
-  console.log(chalk.green('Your app has been built for production and writtentn to /dist'));
+  console.log(chalk.green('Your app has been built for production and written to /dist'));
 
 
   return 0
